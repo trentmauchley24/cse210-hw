@@ -1,9 +1,13 @@
 using System;
-
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning03 World!");
+        person person = new person();
+        person._givenName = "John";
+        person._familyName = "Wick";
+        person.ShowEasternName();
+        person.ShowWesternName();
     }
+
 }
